@@ -35,6 +35,11 @@ public class ConcurrencyTest {
         for (long i = 0; i < count; i++) {
             b--;
         }
+        /**
+         * join的意思是使得放弃当前线程的执行，并返回对应的线程，例如下面代码的意思就是：
+         * 程序在main线程中调用thread线程的join方法，则main线程放弃cpu控制权，并返回thread线程继续执行直到线程thread执行完毕
+         * 所以结果是thread线程执行完后，才到主线程执行，相当于在main线程中同步thread线程，thread执行完了，main线程才有执行的机会
+         */
         thread.join();
         long time = System.currentTimeMillis() - start;
         System.out.println("concurrency :" + time + "ms,b=" + b);
