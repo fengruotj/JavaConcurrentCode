@@ -18,6 +18,7 @@
       <module name="concurrent-introduce" target="1.8" />
       <module name="concurrent-jmm" target="1.8" />
       <module name="concurrentBasic" target="1.8" />
+      <module name="JavaConcurrentCode" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
