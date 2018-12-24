@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ArtConcurrentBook.iml" filepath="$PROJECT_DIR$/ArtConcurrentBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrent-basic/concurrent-basic.iml" filepath="$PROJECT_DIR$/concurrent-basic/concurrent-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrent-introduce/concurrent-introduce.iml" filepath="$PROJECT_DIR$/concurrent-introduce/concurrent-introduce.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrent-jmm/concurrent-jmm.iml" filepath="$PROJECT_DIR$/concurrent-jmm/concurrent-jmm.iml" />
     </modules>
   </component>
 </project>

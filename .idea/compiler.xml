@@ -6,11 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="ArtConcurrentBook" />
+        <module name="concurrent-basic" />
+        <module name="concurrent-introduce" />
+        <module name="concurrent-jmm" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="ArtConcurrentBook" target="1.8" />
+      <module name="concurren-basic" target="1.8" />
+      <module name="concurrent-basic" target="1.8" />
+      <module name="concurrent-introduce" target="1.8" />
+      <module name="concurrent-jmm" target="1.8" />
+      <module name="concurrentBasic" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
