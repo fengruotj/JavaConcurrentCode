@@ -11,6 +11,16 @@
     <file url="file://$PROJECT_DIR$/concurrent-jmm/src/main/java/com/hust/edu/Counter.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-jmm/src/main/java/com/hust/edu/DoubleCheckedLocking.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-lock" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/BoundedQueue.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/Cache.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/ConditionUseCase.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/FairAndUnfairTest.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/LockUseCase.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/Mutex.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/ProcessData.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/SleepUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/TwinsLock.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/TwinsLockTest.java" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

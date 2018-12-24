@@ -1,4 +1,4 @@
-package chapter05;
+package com.hust.edu;
 
 import java.util.HashMap;
 import java.util.Map;

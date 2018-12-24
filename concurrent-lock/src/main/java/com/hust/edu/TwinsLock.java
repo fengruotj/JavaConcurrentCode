@@ -1,7 +1,7 @@
 /**
  * 
  */
-package chapter05;
+package com.hust.edu;
 
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.AbstractQueuedSynchronizer;

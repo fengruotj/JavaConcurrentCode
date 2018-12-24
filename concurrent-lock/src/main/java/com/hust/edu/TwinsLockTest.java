@@ -1,17 +1,16 @@
-/**
+package com.hust.edu; /**
  * 
  */
-package chapter05;
 
 import java.util.concurrent.locks.Lock;
-
-import chapter04.SleepUtils;
 
 /**
  * 10-11
  */
 public class TwinsLockTest {
-
+    public static void main(String[] args) {
+        new TwinsLockTest().test();
+    }
     public void test() {
         final Lock lock = new TwinsLock();
         class Worker extends Thread {
