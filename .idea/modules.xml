@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrent-basic/concurrent-basic.iml" filepath="$PROJECT_DIR$/concurrent-basic/concurrent-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-introduce/concurrent-introduce.iml" filepath="$PROJECT_DIR$/concurrent-introduce/concurrent-introduce.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-jmm/concurrent-jmm.iml" filepath="$PROJECT_DIR$/concurrent-jmm/concurrent-jmm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrent-lock/concurrent-lock.iml" filepath="$PROJECT_DIR$/concurrent-lock/concurrent-lock.iml" />
     </modules>
   </component>
 </project>
