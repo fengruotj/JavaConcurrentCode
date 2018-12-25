@@ -4,6 +4,7 @@
     <file url="file://$PROJECT_DIR$" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-basic" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-basic/src/main/java/com/hust/edu/Piped.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-container" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-introduce" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-introduce/src/main/java/com/hust/edu/ConcurrencyTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-introduce/src/main/java/com/hust/edu/DeadLockDemo.java" charset="GBK" />

@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="concurrent-basic" />
+        <module name="concurrent-container" />
         <module name="concurrent-introduce" />
         <module name="concurrent-jmm" />
         <module name="concurrent-lock" />
@@ -16,6 +17,7 @@
       <module name="ArtConcurrentBook" target="1.8" />
       <module name="concurren-basic" target="1.8" />
       <module name="concurrent-basic" target="1.8" />
+      <module name="concurrent-container" target="1.8" />
       <module name="concurrent-introduce" target="1.8" />
       <module name="concurrent-jmm" target="1.8" />
       <module name="concurrent-lock" target="1.8" />
