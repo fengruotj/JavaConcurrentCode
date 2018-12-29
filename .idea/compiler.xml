@@ -9,6 +9,7 @@
         <module name="concurrent-atomic" />
         <module name="concurrent-basic" />
         <module name="concurrent-container" />
+        <module name="concurrent-executors" />
         <module name="concurrent-introduce" />
         <module name="concurrent-jmm" />
         <module name="concurrent-lock" />
@@ -22,6 +23,7 @@
       <module name="concurrent-atomic" target="1.8" />
       <module name="concurrent-basic" target="1.8" />
       <module name="concurrent-container" target="1.8" />
+      <module name="concurrent-executors" target="1.8" />
       <module name="concurrent-introduce" target="1.8" />
       <module name="concurrent-jmm" target="1.8" />
       <module name="concurrent-lock" target="1.8" />

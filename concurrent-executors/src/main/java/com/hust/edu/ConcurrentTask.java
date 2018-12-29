@@ -1,10 +1,12 @@
-package chapter10;
+package com.hust.edu;
 
 import java.util.concurrent.*;
 
 public class ConcurrentTask {
 
     private final ConcurrentMap<Object, Future<String>> taskCache = new ConcurrentHashMap<Object, Future<String>>();
+
+    private ExecutorService executorService=Executors.newSingleThreadScheduledExecutor();
 
     private String executionTask(final String taskName) throws ExecutionException, InterruptedException {
         while (true) {
@@ -13,16 +15,17 @@ public class ConcurrentTask {
                 Callable<String> task = new Callable<String>() {
                     public String call() throws InterruptedException {
                         //......
+                        System.out.println("TaskName: "+taskName);
                         return taskName;
                     }
                 };
-                Executors.newSingleThreadScheduledExecutor();
+
                 //1.2创建任务
                         FutureTask futureTask = new FutureTask<String>(task);
                 future = taskCache.putIfAbsent(taskName, futureTask); //1.3
                 if (future == null) {
                     future = futureTask;
-                    futureTask.run(); //1.4执行任务
+                    executorService.submit(futureTask);
                 }
             }
 
@@ -34,4 +37,15 @@ public class ConcurrentTask {
         }
     }
 
+    private void stop(){
+        executorService.shutdown();
+    }
+
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
+        ConcurrentTask concurrentTask=new ConcurrentTask();
+        concurrentTask.executionTask("1");
+        concurrentTask.executionTask("2");
+        concurrentTask.executionTask("3");
+        concurrentTask.stop();
+    }
 }
