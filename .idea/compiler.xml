@@ -6,6 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="concurrent-atomic" />
         <module name="concurrent-basic" />
         <module name="concurrent-container" />
         <module name="concurrent-introduce" />
@@ -16,6 +17,7 @@
     <bytecodeTargetLevel>
       <module name="ArtConcurrentBook" target="1.8" />
       <module name="concurren-basic" target="1.8" />
+      <module name="concurrent-atomic" target="1.8" />
       <module name="concurrent-basic" target="1.8" />
       <module name="concurrent-container" target="1.8" />
       <module name="concurrent-introduce" target="1.8" />

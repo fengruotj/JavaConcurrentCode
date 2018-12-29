@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/JavaConcurrentCode.iml" filepath="$PROJECT_DIR$/JavaConcurrentCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrent-atomic/concurrent-atomic.iml" filepath="$PROJECT_DIR$/concurrent-atomic/concurrent-atomic.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-basic/concurrent-basic.iml" filepath="$PROJECT_DIR$/concurrent-basic/concurrent-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-container/concurrent-container.iml" filepath="$PROJECT_DIR$/concurrent-container/concurrent-container.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-introduce/concurrent-introduce.iml" filepath="$PROJECT_DIR$/concurrent-introduce/concurrent-introduce.iml" />
