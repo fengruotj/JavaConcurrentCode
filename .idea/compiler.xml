@@ -12,6 +12,8 @@
         <module name="concurrent-introduce" />
         <module name="concurrent-jmm" />
         <module name="concurrent-lock" />
+        <module name="concurrent-threadpool" />
+        <module name="concurrent-util" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +25,8 @@
       <module name="concurrent-introduce" target="1.8" />
       <module name="concurrent-jmm" target="1.8" />
       <module name="concurrent-lock" target="1.8" />
+      <module name="concurrent-threadpool" target="1.8" />
+      <module name="concurrent-util" target="1.8" />
       <module name="concurrentBasic" target="1.8" />
       <module name="JavaConcurrentCode" target="1.8" />
     </bytecodeTargetLevel>
