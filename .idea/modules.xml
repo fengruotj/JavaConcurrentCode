@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/concurrent-introduce/concurrent-introduce.iml" filepath="$PROJECT_DIR$/concurrent-introduce/concurrent-introduce.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-jmm/concurrent-jmm.iml" filepath="$PROJECT_DIR$/concurrent-jmm/concurrent-jmm.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-lock/concurrent-lock.iml" filepath="$PROJECT_DIR$/concurrent-lock/concurrent-lock.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrent-practice/concurrent-practice.iml" filepath="$PROJECT_DIR$/concurrent-practice/concurrent-practice.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-threadpool/concurrent-threadpool.iml" filepath="$PROJECT_DIR$/concurrent-threadpool/concurrent-threadpool.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-util/concurrent-util.iml" filepath="$PROJECT_DIR$/concurrent-util/concurrent-util.iml" />
     </modules>
