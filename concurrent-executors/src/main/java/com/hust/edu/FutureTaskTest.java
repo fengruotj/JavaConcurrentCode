@@ -17,7 +17,9 @@ public class FutureTaskTest {
                 return 5;
             }
         });
-
+        Thread thread=new Thread(futureTask);
+        thread.start();
+        System.out.println("---------run----------");
         Integer integer = futureTask.get();
         System.out.println(integer);
     }
