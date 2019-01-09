@@ -25,6 +25,7 @@
     <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/TwinsLock.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-lock/src/main/java/com/hust/edu/TwinsLockTest.java" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-practice" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/concurrent-shutdown" charset="GBK" />
     <file url="file://$PROJECT_DIR$/concurrent-threadpool" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/concurrent-util" charset="GBK" />
     <file url="PROJECT" charset="GBK" />
