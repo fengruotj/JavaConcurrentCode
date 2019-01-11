@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/JavaConcurrentCode.iml" filepath="$PROJECT_DIR$/JavaConcurrentCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-atomic/concurrent-atomic.iml" filepath="$PROJECT_DIR$/concurrent-atomic/concurrent-atomic.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-basic/concurrent-basic.iml" filepath="$PROJECT_DIR$/concurrent-basic/concurrent-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/concurrent-condition/concurrent-condition.iml" filepath="$PROJECT_DIR$/concurrent-condition/concurrent-condition.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-container/concurrent-container.iml" filepath="$PROJECT_DIR$/concurrent-container/concurrent-container.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-deadlock/concurrent-deadlock.iml" filepath="$PROJECT_DIR$/concurrent-deadlock/concurrent-deadlock.iml" />
       <module fileurl="file://$PROJECT_DIR$/concurrent-executors/concurrent-executors.iml" filepath="$PROJECT_DIR$/concurrent-executors/concurrent-executors.iml" />

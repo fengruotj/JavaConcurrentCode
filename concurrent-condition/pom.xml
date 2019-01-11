@@ -2,31 +2,18 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>JavaConcurrentCode</artifactId>
+        <groupId>com.hust.edu</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.hust.edu</groupId>
-    <artifactId>JavaConcurrentCode</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>concurrent-basic</module>
-        <module>concurrent-introduce</module>
-        <module>concurrent-jmm</module>
-        <module>concurrent-lock</module>
-        <module>concurrent-container</module>
-        <module>concurrent-atomic</module>
-        <module>concurrent-util</module>
-        <module>concurrent-threadpool</module>
-        <module>concurrent-executors</module>
-        <module>concurrent-practice</module>
-        <module>concurrent-shutdown</module>
-        <module>concurrent-deadlock</module>
-        <module>concurrent-condition</module>
-    </modules>
+    <artifactId>concurrent-condition</artifactId>
 
-    <name>JavaConcurrentCode</name>
+    <name>concurrent-condition</name>
     <!-- FIXME change it to the project's website -->
-    <url>http://www.example.com</url>.
+    <url>http://www.example.com</url>
 
     <properties>
         <project.build.sourceEncoding>GBK</project.build.sourceEncoding>
